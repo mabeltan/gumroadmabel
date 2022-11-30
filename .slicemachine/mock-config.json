@@ -1,0 +1,45 @@
+{
+  "_cts": {
+    "homepage": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    },
+    "generic_page": {},
+    "blogpost": {},
+    "dsadsa": {},
+    "navigation": {}
+  },
+  "slices": {
+    "TextSlice": {
+      "default": {
+        "primary": {
+          "eyebrow": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "ImageLeftContentRight": {
+      "default": {
+        "primary": {
+          "imagefield": {
+            "content": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f"
+          }
+        }
+      }
+    },
+    "Navigation": {},
+    "NavigationItem": {
+      "default": {
+        "primary": {}
+      }
+    }
+  }
+}

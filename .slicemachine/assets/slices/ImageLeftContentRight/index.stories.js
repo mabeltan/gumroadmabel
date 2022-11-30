@@ -1,0 +1,15 @@
+import MyComponent from '../../../../slices/ImageLeftContentRight';
+
+export default {
+  title: 'slices/ImageLeftContentRight'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","version":"sktwi1xtmkfgx8626","items":[{}],"primary":{"imagefield":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f"},"title":[{"type":"heading1","text":"Shells","spans":[]}],"description":[{"type":"paragraph","text":"Voluptate exercitation adipisicing veniam elit Lorem consectetur veniam ex deserunt veniam.","spans":[]}]},"slice_type":"image_left_content_right","id":"_Default"}} />
+_Default.storyName = ''
+
+export const _ImageRightandText = () => <MyComponent slice={{"variation":"imageRightandText","version":"sktwi1xtmkfgx8626","items":[{}],"primary":{"imagefield":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1560457079-9a6532ccb118"},"title":[{"type":"heading1","text":"Heart","spans":[]}],"description":[{"type":"paragraph","text":"Deserunt deserunt sint elit ex qui labore nostrud fugiat pariatur mollit.","spans":[]}]},"slice_type":"image_left_content_right","id":"_ImageRightandText"}} />
+_ImageRightandText.storyName = ''
+
+export const _NoImage = () => <MyComponent slice={{"variation":"noImage","version":"sktwi1xtmkfgx8626","items":[{}],"primary":{"imagefield":{"dimensions":{"width":900,"height":500},"alt":null,"copyright":null,"url":"https://images.unsplash.com/photo-1579931794097-0ad001e51edb"},"title":[{"type":"heading1","text":"Slight","spans":[]}],"description":[{"type":"paragraph","text":"Deserunt aliquip non dolore anim et occaecat cillum tempor id aliquip sint mollit.","spans":[]}]},"slice_type":"image_left_content_right","id":"_NoImage"}} />
+_NoImage.storyName = ''

@@ -1,0 +1,30 @@
+{
+  "id": "homepage",
+  "label": "homepage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading1"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "image_left_content_right": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

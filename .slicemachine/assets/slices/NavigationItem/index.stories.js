@@ -1,0 +1,9 @@
+import MyComponent from '../../../../slices/NavigationItem';
+
+export default {
+  title: 'slices/NavigationItem'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","version":"sktwi1xtmkfgx8626","items":[{"name":[{"type":"paragraph","text":"Pariatur ut irure qui pariatur.","spans":[]}],"link":{"link_type":"Web","url":"http://twitter.com"}}],"primary":{"name":[{"type":"paragraph","text":"Qui sunt est sint laborum sunt duis cupidatat dolore consequat exercitation in. Qui fugiat tempor voluptate eu excepteur deserunt ullamco commodo eiusmod. Veniam consequat fugiat consectetur culpa nostrud ea.","spans":[]}],"link":{"link_type":"Web","url":"http://google.com"}},"slice_type":"navigation","id":"_Default"}} />
+_Default.storyName = ''
