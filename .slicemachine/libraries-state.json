@@ -401,7 +401,17 @@
                   }
                 }
               },
-              "items": {},
+              "items": {
+                "rich_text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Rich text",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
               "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
             }
           ]
@@ -411,35 +421,43 @@
             "variation": "default",
             "version": "sktwi1xtmkfgx8626",
             "items": [
-              {}
+              {
+                "rich_text": [
+                  {
+                    "type": "paragraph",
+                    "text": "Cupidatat fugiat nulla nisi eu dolore consequat eiusmod.",
+                    "spans": []
+                  }
+                ]
+              }
             ],
             "primary": {
               "eyebrow": [
                 {
                   "type": "heading1",
-                  "text": "Answer",
+                  "text": "Funny",
                   "spans": []
                 }
               ],
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Fastened",
+                  "text": "House",
                   "spans": []
                 }
               ],
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Consequat nulla elit mollit mollit voluptate pariatur Lorem minim amet dolor consectetur occaecat ullamco deserunt. Elit enim esse nulla ex laboris nisi. Aliquip quis eu Lorem deserunt consectetur dolore voluptate incididunt officia sunt aute labore deserunt.",
+                  "text": "Qui Lorem reprehenderit dolore qui et veniam cupidatat incididunt dolore ullamco cillum mollit Lorem sint aute. Ad occaecat pariatur eiusmod irure incididunt ad eu quis ipsum.",
                   "spans": []
                 }
               ],
               "linkfield": {
                 "link_type": "Web",
-                "url": "http://google.com"
+                "url": "https://prismic.io"
               },
-              "linklabel": "fog"
+              "linklabel": "nervous"
             },
             "slice_type": "text_slice"
           }

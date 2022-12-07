@@ -28,10 +28,10 @@ export async function getStaticPaths() {
     return { paths, fallback: false }
   }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params, previewData }) {
     // params contains the post `id`.
     // If the route is like /posts/1, then params.id is 1
-    const client = createClient()
+    const client = createClient({previewData})
     const page = await client.getByUID('generic_page', params.uid)
     // Pass post data to the page via props
     return { props: {page} }
