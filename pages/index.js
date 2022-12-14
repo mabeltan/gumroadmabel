@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { Navigation } from '../components/Navigation'
 import { SliceZone, PrismicRichText } from '@prismicio/react'
 
@@ -5,7 +6,15 @@ import { createClient } from '../prismicio'
 import { components } from '../slices'
 
 const Page = ({ page, menu }) => {
-  return <><Navigation navigation={menu} /><PrismicRichText field={page.data.title} /><SliceZone slices={page.data.slices} components={components} /></>
+  return <>
+    <Head>
+    <span >{ page.data.seo_title }</span>
+    <span >{ page.data.seo_description }</span>
+    </Head>
+    <Navigation navigation={menu} />
+    <PrismicRichText field={page.data.title} />
+    <SliceZone slices={page.data.slices} components={components} />
+    </>
 }
 
 
